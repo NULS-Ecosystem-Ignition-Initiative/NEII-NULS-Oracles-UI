@@ -1,10 +1,37 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 1rem;
   min-height: 100vh;
+}
+
+.listProject{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.listProject div{
+  width: 25%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.listProject div div{
+  text-align: center;
+  width: auto;
+}
+
+.listDescription{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
 }
 
 .description {
