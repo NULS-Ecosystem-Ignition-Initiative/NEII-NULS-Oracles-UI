@@ -26,7 +26,7 @@ import Link from "next/link";
 
 
 */
-export const Footer = ({coin}) => {
+export const Footer = ({}) => {
 
     const [balanceNuls, setBalanceNuls] = useState()
 

@@ -37,7 +37,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="icon" href="/neii.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
                 <link
                     href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
                     rel="stylesheet"/>
@@ -48,7 +48,7 @@ export default function Home() {
                 <Menu/>
 
 
-                <div style={{backgroundColor:"white", marginTop:"40px", minWidth:"300px", fontFamily:"Arimo", padding:"10px", borderRadius:"10px", width:"35%", marginTop:"90px"}}>
+                <div style={{backgroundColor:"white", minWidth:"300px", fontFamily:"Arimo", padding:"10px", borderRadius:"10px", width:"35%", marginTop:"90px"}}>
                     <div style={{textAlign:"center", fontWeight:"bold",padding:"15px", fontSize:"18px"}}>
                         Claim Your Dividends
                     </div>

@@ -26,7 +26,11 @@ import Link from "next/link";
 
 
 */
-export const ListProject = ({coin}) => {
+
+interface Props {
+    coin:any
+}
+export const ListProject: React.FC<Props>  = ({coin}) => {
 
     const [balanceNuls, setBalanceNuls] = useState()
 

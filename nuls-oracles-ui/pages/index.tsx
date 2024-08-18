@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/neii.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
         <link
           href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
           rel="stylesheet"/>
@@ -68,8 +68,8 @@ export default function Home() {
               </div>
               <div>
                   {
-                      (api.length > 0 ) ? api.map((oracle) =>
-                              <ListProject coin={oracle}/>
+                      (api.length > 0 ) ? api.map((oracle:any) =>
+                              <ListProject key={oracle.id} coin={oracle}/>
                           )
                           :
                           <>No Projects Listed!</>
