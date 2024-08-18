@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
-import Image from "next/image";
+/*import Image from "next/image";
 import NaboxWindow from "../types/NaboxWindow";
 import styles from "../styles/Home.module.css";
-import {IoIosArrowDropdownCircle} from "react-icons/io";
+import {IoIosArrowDropdownCircle} from "react-icons/io";*/
 //import styles from '../../styles/Creator/MyPage/MyPage.module.css'
 import Link from "next/link";
 //import { ConnectButton } from '@rainbow-me/rainbowkit';
