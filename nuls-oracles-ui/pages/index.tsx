@@ -56,10 +56,10 @@ export default function Home() {
                   <div>
                       Oracle
                   </div>
-                  <div>
+                  <div className={styles.vFeeder}>
                       Valid Feeders
                   </div>
-                  <div>
+                  <div className={styles.vFeeder}>
                       Reads Number
                   </div>
                   <div>

@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import {useEffect, useState} from "react";
 import {ListProject} from "../components/ListProject";
 import {Menu} from "../components/Menu";
+import {Footer} from "../components/Footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -47,7 +48,7 @@ export default function Home() {
                 <Menu/>
 
 
-                <div style={{backgroundColor:"white", marginTop:"40px", fontFamily:"Arimo", padding:"10px", borderRadius:"10px", width:"35%", marginTop:"90px"}}>
+                <div style={{backgroundColor:"white", marginTop:"40px", minWidth:"300px", fontFamily:"Arimo", padding:"10px", borderRadius:"10px", width:"35%", marginTop:"90px"}}>
                     <div style={{textAlign:"center", fontWeight:"bold",padding:"15px", fontSize:"18px"}}>
                         Claim Your Dividends
                     </div>
@@ -95,15 +96,7 @@ export default function Home() {
                 </div>
 
 
-                <div style={{position:"fixed",
-                    width:"100%",
-                    height:"50px",
-                    backgroundImage: "linear-gradient(180deg,#0c111c,#0f1421 14.87%,#10131a 29.77%,#19191b 50%)",
-                    textAlign:"center", bottom:"0px", left:"0px", color:"white",
-                    display:"flex",
-                    alignItems:"center", justifyContent:"center"}}>
-                    Developed by NULS Ecosystem Ignition Initiative
-                </div>
+               <Footer/>
             </main>
         </>
     )

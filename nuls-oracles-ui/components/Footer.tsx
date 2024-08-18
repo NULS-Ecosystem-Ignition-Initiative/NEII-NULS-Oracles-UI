@@ -90,7 +90,7 @@ export const Footer = ({coin}) => {
                 alignItems:"center", justifyContent:"space-between",
             }}>
                <div style={{padding:"5px 15px"}}>
-                   Developed by NULS Ecosystem Ignition Initiative
+                   Developed by NEII
                </div>
                 <div>
                     <div style={{padding:"5px 15px"}}>

@@ -45,6 +45,7 @@
   font-family: var(--font-mono);
 }
 
+
 .description a {
   display: flex;
   justify-content: center;
@@ -281,6 +282,17 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
+  }
+
+  .vFeeder{
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .vFeeder{
+    display: none;
   }
 }
 

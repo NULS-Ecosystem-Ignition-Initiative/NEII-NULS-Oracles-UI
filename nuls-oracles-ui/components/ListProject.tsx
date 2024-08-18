@@ -86,10 +86,10 @@ export const ListProject = ({coin}) => {
                 <div>
                     {coin.oracleName}
                 </div>
-                <div>
+                <div className={styles.vFeeder}>
                     {coin.maxROI}
                 </div>
-                <div>
+                <div className={styles.vFeeder}>
                     {coin.poolAddr ? "--" : "-"}
                 </div>
                 <div style={{display:""}}>

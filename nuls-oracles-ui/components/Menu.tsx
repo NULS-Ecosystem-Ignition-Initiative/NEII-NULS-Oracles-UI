@@ -86,7 +86,7 @@ export const Menu = () => {
                 <div style={{display:"flex", color:"white", fontFamily:"Arimo", fontWeight:"bold", fontSize:"19px"}}>
                     <Link href="/"><div style={{padding:"4px"}}>Home</div></Link>
                     <Link href="/stake"> <div style={{padding:"4px"}}>Dividends</div></Link>
-                    <Link href="https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles" target="_blank"> <div style={{padding:"4px"}}>Documentation</div></Link>
+                    <Link href="https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles" target="_blank"> <div style={{padding:"4px"}}>Docs</div></Link>
                 </div>
             </div>
         </>
