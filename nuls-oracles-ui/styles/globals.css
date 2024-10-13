@@ -100,6 +100,10 @@ a {
   text-decoration: none;
 }
 
+.greenHover:hover{
+  color: rgb(50, 224, 141);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

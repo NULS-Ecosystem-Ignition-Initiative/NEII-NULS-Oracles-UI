@@ -147,6 +147,21 @@ export default function Home() {
         return res?.toString();
     }
 
+    async function claim(
+    ) {
+        const data = {
+            from: account,
+            value: 0.01,
+            contractAddress: "NULSd6HgpAD6EY9RwsrFbnHSPRPATj5bfEyfq",
+            methodName: "getReward",
+            methodDesc:
+                "() return BigInteger",
+            args: [],
+        };
+        const res = await (window as unknown as NaboxWindow).nabox.contractCall(data);
+        return res?.toString();
+    }
+
 
     return (
         <>
@@ -249,6 +264,7 @@ export default function Home() {
                                 fontWeight:"bold",
                                 marginTop:"10px"
                             }}
+                            onClick={() => claim()}
                             >Claim</button>
                         </div>
                         <div style={{color:"red", marginTop:"20px", padding:"10px"}}>

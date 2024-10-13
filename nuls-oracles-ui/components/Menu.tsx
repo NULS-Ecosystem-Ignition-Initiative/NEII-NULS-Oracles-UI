@@ -83,9 +83,9 @@ export const Menu = () => {
             <div>
                 <div></div>
                 <div style={{display:"flex", color:"white", fontFamily:"Arimo", fontWeight:"bold", fontSize:"19px"}}>
-                    <Link href="/"><div style={{padding:"4px"}}>Home</div></Link>
-                    <Link href="/stake"> <div style={{padding:"4px"}}>Dividends</div></Link>
-                    <Link href="https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles" target="_blank"> <div style={{padding:"4px"}}>Docs</div></Link>
+                    <Link href="/"><div className="greenHover" style={{padding:"4px 9px"}}>Home</div></Link>
+                    <Link href="/stake"> <div  className="greenHover" style={{padding:"4px 9px"}}>Dividends</div></Link>
+                    <Link href="https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles"  className="greenHover" target="_blank"> <div style={{padding:"4px 9px"}}>Docs</div></Link>
                 </div>
             </div>
         </>
