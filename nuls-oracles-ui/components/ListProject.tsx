@@ -100,7 +100,7 @@ export const ListProject: React.FC<Props>  = ({coin}) => {
 
                         <div>
 
-                            <p style={{color:"rgb(10, 254, 100)"}}>Operational</p>
+                            <p style={{color:"rgb(10, 254, 100)"}}>{coin.status}</p>
                         </div>
                         {
                             /*

@@ -7,7 +7,8 @@
     "raiseAddr": "",
     "maxROI": "-",
     "poolAddr": "",
-    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles"
+    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles",
+    "status": "Coming Soon"
 
   }
   ,
@@ -19,8 +20,8 @@
     "raiseAddr": "",
     "maxROI": "-",
     "poolAddr": "",
-    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles"
-
+    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles",
+    "status": "Coming Soon"
   },
   {
     "id": 3,
@@ -30,7 +31,8 @@
     "raiseAddr": "",
     "maxROI": "-",
     "poolAddr": "",
-    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles"
+    "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles",
+    "status": "Coming Soon"
 
   },{
   "id": 4,
@@ -40,7 +42,8 @@
   "raiseAddr": "",
   "maxROI": "-",
   "poolAddr": "",
-  "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles"
+  "github": "https://github.com/NULS-Ecosystem-Ignition-Initiative/NEII-Nuls-Oracles",
+  "status": "Coming Soon"
 
 }
 ]
